@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">TherapBangla</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sync">SyncActivity</string>
+    <string name="error_log">Error Log</string>
+    <string name="dropbox_login">Dropbox Login</string>
+    <string name="auto_update">Auto Update</string>
+    <string name="title_activity_error">Error Log</string>
+    <string name="clear">Clear Log</string>
+    <string name="update_all">Update All</string>
+    <string name="manual_upload">Manual Upload</string>
+    <string name="title_activity_manual_update">Manual Upload</string>
+    <string name="title_activity_manual_download">Manual Download</string>
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="upload_all">Upload All</string>
+    <string name="download_all">Download All</string>
+    <string name="manual_download">Manual Download</string>
+
+</resources>

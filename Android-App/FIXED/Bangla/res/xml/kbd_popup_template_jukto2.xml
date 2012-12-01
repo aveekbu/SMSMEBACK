@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="864" android:keyIcon="@drawable/klo" android:keyEdgeFlags="left" />
+        <Key android:codes="866,867,921" android:keyIcon="@drawable/shco" android:popupKeyboard="@xml/kbd_popup_template_w2"/>
+        <Key android:codes="868,869" android:keyIcon="@drawable/shno1" android:popupKeyboard="@xml/kbd_popup_template_e2"/>
+        <Key android:codes="870,871" android:keyIcon="@drawable/shkro1" android:popupKeyboard="@xml/kbd_popup_template_r2" />
+        <Key android:codes="872,873" android:keyIcon="@drawable/tto1112" android:popupKeyboard="@xml/kbd_popup_template_t2"/>
+        <Key android:codes="874,875" android:keyIcon="@drawable/ttho" android:popupKeyboard="@xml/kbd_popup_template_y2"/>
+        <Key android:codes="876,877,878" android:keyIcon="@drawable/ntwo" android:popupKeyboard="@xml/kbd_popup_template_u2"/>
+        <Key android:codes="879,880,881" android:keyIcon="@drawable/nco1" android:popupKeyboard="@xml/kbd_popup_template_i2"/>
+        <Key android:codes="882,883" android:keyIcon="@drawable/lmo"  android:popupKeyboard="@xml/kbd_popup_template_o2"/>
+        <Key android:codes="884,885" android:keyIcon="@drawable/pno"  android:popupKeyboard="@xml/kbd_popup_template_p2" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="886,887" android:keyIcon="@drawable/slo" android:horizontalGap="5%p" 
+                android:keyEdgeFlags="left" android:popupKeyboard="@xml/kbd_popup_template_a2"/>
+        <Key android:codes="888,889" android:keyIcon="@drawable/stho" android:popupKeyboard="@xml/kbd_popup_template_s2"/>
+        <Key android:codes="890,891" android:keyIcon="@drawable/ddo" android:popupKeyboard="@xml/kbd_popup_template_d2"/>
+        <Key android:codes="837" android:keyIcon="@drawable/flo"/>
+        <Key android:codes="892,893,894" android:keyIcon="@drawable/ghno" android:popupKeyboard="@xml/kbd_popup_template_g2"/>
+        <Key android:codes="895,896" android:keyIcon="@drawable/hbo" android:popupKeyboard="@xml/kbd_popup_template_h2"/>
+        <Key android:codes="897" android:keyIcon="@drawable/jwo"/>
+        <Key android:codes="898,899,900" android:keyIcon="@drawable/kkhmo" android:popupKeyboard="@xml/kbd_popup_template_k2"/>
+        <Key android:codes="901,902" android:keyIcon="@drawable/llo" android:popupKeyboard="@xml/kbd_popup_template_l2" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+                android:keyWidth="15%p" android:isModifier="true"
+                android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="903" android:keyIcon="@drawable/dvo"/>
+        <Key android:codes="904,905" android:keyIcon="@drawable/nko" android:popupKeyboard="@xml/kbd_popup_template_x2"/>
+        <Key android:codes="906" android:keyIcon="@drawable/ccho" />
+        <Key android:codes="907" android:keyIcon="@drawable/vro"/>
+        <Key android:codes="908,909" android:keyIcon="@drawable/bdho" android:popupKeyboard="@xml/kbd_popup_template_b2"/>
+        <Key android:codes="910,911,912" android:keyIcon="@drawable/ndoo" android:popupKeyboard="@xml/kbd_popup_template_n2"/>
+        <Key android:codes="913,914,915" android:keyIcon="@drawable/mno" android:popupKeyboard="@xml/kbd_popup_template_m2"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+                android:keyWidth="15%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-3" android:keyIcon="@drawable/sym_keyboard_done" 
+                android:keyWidth="20%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyIcon="@drawable/ko" android:keyWidth="15%p"/>
+        <Key android:codes="962" android:keyIcon="@drawable/sym_keyboard_space" 
+                android:keyWidth="30%p" android:isRepeatable="true"/>
+           <Key android:codes="961,960" android:keyIcon="@drawable/coma" android:popupKeyboard="@xml/kbd_popup_template_coma" android:keyWidth="15%p" />
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" 
+                android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
