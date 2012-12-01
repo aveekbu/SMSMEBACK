@@ -1,0 +1,30 @@
+user_group:
+
+admin
+PM
+	PMO officer
+	PMO admin
+	PMO A2I
+
+Minister(46~)
+	secratery(67)
+	IT officer
+Division (7)
+		DIvision Commissionar
+		
+DC (64)
+	DC OFFICE
+
+UNO(493)
+	UNO OFFICER
+  
+
+UP COMPLEX(4500)
+	UP CHAIRMAN(IT OFFICER)
+
+WARD(40500)
+	WARD MEMBER
+
+USER(110Mil) 
+	USER MOB
+
